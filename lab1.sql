@@ -1,0 +1,15 @@
+CREATE DATABASE dbms1_sudip;
+CREATE TABLE `dbms1_sudip`.`student` (
+  `SID` INT NOT NULL,
+  `NAME` VARCHAR(45) NULL,
+  `GENDER` VARCHAR(45) NULL,
+  `PROGRAM` VARCHAR(45) NULL,
+  PRIMARY KEY (`SID`));
+  
+  CREATE TABLE `dbms1_sudip`.`teacher` (
+  `ID` INT NOT NULL,
+  `NAME` VARCHAR(45) NULL,
+  `ADDRESS` VARCHAR(45) NULL,
+  PRIMARY KEY (`ID`));
+  
+  DROP TABLE `teacher`;
